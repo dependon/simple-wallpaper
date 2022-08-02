@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=Application;
+Comment=simple-wallpaper
+Comment[zh_CN]=幻梦动态壁纸
+Comment[pl]=Tapeta dynamiczna Fantascene
+
+Exec=simple-wallpaper
+GenericName=simple-wallpaper
+GenericName[zh_CN]=幻梦动态壁纸
+GenericName[pl]=Tapeta dynamiczna Fantascene
+Icon=simple-wallpaper
+Name=simple-wallpaper
+Name[zh_CN]=幻梦动态壁纸
+Name[pl]=Tapeta dynamiczna Fantascene
+StartupNotify=false
+Terminal=false
+Type=Application
+Version=1.0.0.0

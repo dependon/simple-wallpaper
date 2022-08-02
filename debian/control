@@ -1,12 +1,12 @@
-Source: deepin-dreamscene
-Section: base
+Source: simple-wallpaper
+Section: utils
 Priority: optional
-Maintainer: kirigaya <kirigaya@mkacg.com>
-Build-Depends: debhelper (>= 9),pkg-config, dpkg-dev, qt5-qmake, qtbase5-dev, libdtkwidget-dev, libxcb-ewmh-dev, libmpv-dev 
-Standards-Version: 0.1-1
-Homepage: http://blog.mkacg.com
+Maintainer: liuminghang <liuminghang0821@gmail.com>
+Build-Depends: debhelper (>= 9),pkg-config, dpkg-dev, qt5-qmake, qtbase5-dev, libxcb-ewmh-dev, libmpv-dev ,qttools5-dev-tools, libqt5opengl5-dev, libglib2.0-dev,libmtdev-dev ,libx11-xcb-dev , ffmpeg , dpkg-dev ,fakeroot ,qtwebengine5-dev ,libxext-dev ,libxrender-dev ,libqt5x11extras5-dev,libxcb-shape0-dev,g++,build-essential
+Standards-Version: 0.0-3
+Homepage: http://github.com/dependon
 
-Package: deepin-dreamscene
+Package: simple-wallpaper
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: video wallpaper for deepin.
+Description: video wallpaper for fantascene.

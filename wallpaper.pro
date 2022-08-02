@@ -3,7 +3,7 @@ TEMPLATE = app
 QT += gui widgets dbus
 CONFIG += c++11 link_pkgconfig
 PKGCONFIG += mpv
-TARGET = wallpaper
+TARGET = simple-wallpaper
 
 SOURCES += main.cpp \
     wallpaper.cpp \
@@ -26,7 +26,13 @@ RESOURCES += \
 
 target.path = /usr/bin/
 
-INSTALLS += target
+icon.path=/usr/share/icons
+icon.files= $$PWD/install/simple-wallpaper.png
+
+desktop.path = /usr/share/applications/
+desktop.files = $$PWD/install/simple-wallpaper.desktop
+
+INSTALLS += target icon desktop
 
 FORMS += \
     settingwindow.ui
