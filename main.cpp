@@ -10,6 +10,7 @@
 
 int main(int argc, char *argv[])
 {
+	qputenv("QT_QPA_PLATFORM", "xcb");
     mallopt(M_ARENA_MAX, 1);
 
     Application a(argc, argv);
@@ -17,7 +18,7 @@ int main(int argc, char *argv[])
     setlocale(LC_NUMERIC, "C");
 
     if (true) {
-        a.setApplicationName(QObject::tr("Deepin DreamScene"));
+        a.setApplicationName(QObject::tr("Simple DreamScene"));
         a.setApplicationVersion("Version 0.1");
 
         Wallpaper *w = new Wallpaper;
